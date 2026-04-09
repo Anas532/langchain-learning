@@ -1,0 +1,14 @@
+Knowledge Base: The Evolution of AI
+Artificial Intelligence (AI) has transitioned from a theoretical concept to a transformative technology. At its core, AI aims to create systems capable of performing tasks that typically require human intelligence, such as visual perception, speech recognition, and decision-making.
+
+Large Language Models (LLMs) LLMs like GPT-4, Claude, and Gemini represent a massive leap in Natural Language Processing. These models are trained on vast datasets, allowing them to predict the next token in a sequence with remarkable accuracy. However, they face a common challenge: "hallucination," where the model generates confident but incorrect information.
+
+The Role of LangChain LangChain is a framework designed to simplify the creation of applications using LLMs. It provides a standard interface for:
+
+Chains: Linking different components together.
+
+Memory: Allowing models to remember past interactions.
+
+RAG (Retrieval-Augmented Generation): Connecting LLMs to external data sources to provide up-to-date and factual responses.
+
+Vector Databases In a RAG pipeline, documents are converted into numerical representations called embeddings. These are stored in vector databases (like Chroma, Pinecone, or FAISS), enabling the system to perform a semantic search and find the most relevant information for a given prompt

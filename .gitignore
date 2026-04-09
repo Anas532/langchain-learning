@@ -1,0 +1,14 @@
+conda-env/
+Lang/conda-env/
+venv/
+.env
+*.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.faiss
+*.pkl
+.DS_Store
+build/
+dist/
+*.egg-info/

@@ -1,0 +1,10 @@
+langchain
+python-dotenv
+langchain-openai
+langchain-groq
+langchain_ollama
+beautifulsoup4
+langchain_community
+faiss-cpu
+langchain-classic
+streamlit
