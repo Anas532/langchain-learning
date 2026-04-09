@@ -1,13 +1,28 @@
+# Environments
 conda-env/
 Lang/conda-env/
 venv/
+
+# IDE
+.vscode/
+
+# Secrets
 .env
 *.env
+
+# Python
 __pycache__/
 *.pyc
-.ipynb_checkpoints/
-*.faiss
+
+# Data / models
 *.pkl
+*.faiss
+*.bin
+*.sqlite3
+chroma_db/
+
+# Misc
+.ipynb_checkpoints/
 .DS_Store
 build/
 dist/
