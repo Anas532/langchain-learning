@@ -1,8 +1,0 @@
-langchain
-langchain-groq
-langchain_core
-uvicorn
-fastapi
-langserve
-sse_starlette
-langchain_community

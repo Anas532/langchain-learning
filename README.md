@@ -18,32 +18,75 @@ This project focuses on building real-world, end-to-end AI systems — from data
 - **Chatbots with Memory** – Context-aware conversational AI with message history management
 
 ---
-
 ## 📁 Project Structure
 
 ```
 langchain-learning/
-├── notebooks/              # Jupyter notebooks with tutorials and experiments
-│   ├── 1-chatbots.ipynb
-│   ├── Chatbot_with_history.ipynb
-│   ├── Vector_retriever.ipynb
-│   ├── ChromaDB.ipynb
-│   ├── Fais.ipynb
-│   └── ...
-├── src/                    # Production-ready Python applications
-│   ├── serve.py           # FastAPI server with LangServe
-│   ├── ollama_app.py      # Streamlit app with Ollama integration
-│   └── openai_ollama_app.py  # Structured output with Pydantic
-├── docs/                   # Documentation and reference materials
-│   ├── Attention.pdf      # Research paper on attention mechanisms
-│   └── knowledge.txt      # Knowledge base snippets
-├── requirements.txt        # Python dependencies
-├── .env.example           # Environment variables template
-├── .gitignore             # Git ignore rules
-└── README.md              # This file
+│
+├── notebooks/                          # Core learning notebooks (organized by topic)
+│   ├── Chatbots/
+│   │   ├── 1-chatbots.ipynb
+│   │   ├── Chatbot_with_history.ipynb
+│   │   └── Vector_retriever.ipynb
+│   │
+│   ├── Agentic_AI_vs_AI_Agents/        # Conceptual understanding + diagrams
+│   │   ├── AI Agents vs Agentic AI.pdf
+│   │   └── Examples.pdf
+│   │
+│   ├── LangChain_HandsOn/
+│   │   ├── Data_Embeddings/
+│   │   │   ├── embedding.ipynb
+│   │   │   ├── HuggingFace.ipynb
+│   │   │   └── OllamaEmbeddings.ipynb
+│   │   │
+│   │   ├── Data_Ingestion/
+│   │   │   └── DataIngestion.ipynb
+│   │   │
+│   │   ├── Data_Storage/
+│   │   │   ├── ChromaDB.ipynb
+│   │   │   └── Fais.ipynb
+│   │   │
+│   │   ├── Data_Transformation/
+│   │   │   ├── Character_Text_Splitter.ipynb
+│   │   │   ├── HTMLTextSplitter.ipynb
+│   │   │   ├── JsonSplitter.ipynb
+│   │   │   └── Recursive_Character_Text_Splitter.ipynb
+│   │   │
+│   │   └── RAG/
+│   │       └── Rag Architecture.pdf
+│   │
+│   ├── LCEL/
+│   │   ├── simpleLCEL.ipynb
+│   │   └── Langserve_API.pdf
+│   │
+│   └── OpenAI_Ollama/
+│       ├── Setup_with_Ollama.ipynb
+│       ├── SimpleApp.ipynb
+│       └── requirements.txt
+│
+├── src/                                # Python applications (FastAPI / scripts)
+│   ├── serve.py
+│   ├── ollama_app.py
+│   └── setup.py
+│
+├── archive/                            
+ raw learning material
+│   ├── Notes_of_Kri
+│   
+│
+├── docs/                               # Supporting documentation
+│   ├── Attention.pdf
+│   ├── knowledge.txt
+│   └── knowledge_copy.txt
+│
+├── .gitignore
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── requirements_2.txt
+└── env.example
 ```
 
----
 
 ## ⚙️ Quick Start
 
